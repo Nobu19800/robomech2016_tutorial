@@ -1,0 +1,20 @@
+2016-05-26 20:15:28,941 manager INFO 1.1.0
+2016-05-26 20:15:28,941 manager INFO Copyright (C) 2003-2010
+2016-05-26 20:15:28,941 manager INFO   Noriaki Ando
+2016-05-26 20:15:28,941 manager INFO   Intelligent Systems Research Institute, AIST
+2016-05-26 20:15:28,941 manager INFO Manager starting.
+2016-05-26 20:15:28,943 manager INFO Starting local logging.
+2016-05-26 20:15:28,964 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2016-05-26 20:15:30,973 ManagerServant INFO Master manager not found
+2016-05-26 20:15:30,973 manager WARNING Traceback (most recent call last):
+  File "OpenRTM_aist\Manager.pyo", line 1900, in initManagerServant
+IOError: [Errno 2] No such file or directory: '/var/log/rtcmanager.ref'
+
+2016-05-26 20:15:30,974 LocalServiceAdmin INFO All the local services are enabled.
+2016-05-26 20:15:30,983 ec_base INFO setRate(1000000.000000) done
+2016-05-26 20:15:30,983 ec_base INFO setRate(1000.000000) done
+2016-05-26 20:15:30,983 rtobject INFO 1 execution context was created.
+2016-05-26 20:15:30,990 rtobject INFO Initial active configuration set is default-set.
+2016-05-26 20:15:49,914 ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2016-05-26 20:15:49,918 ec_worker WARNING ExecutionContext is already stopped.
+2016-05-26 20:15:49,918 ec_base ERROR Invoking on_shutdown() for each RTC failed.

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/ControlEducatorVehicleComp.dir/ControlEducatorVehicleComp.cpp.o CMakeFiles/ControlEducatorVehicleComp.dir/ControlEducatorVehicle.cpp.o  -o ControlEducatorVehicleComp -rdynamic -lpthread -lomniORB4 -lomnithread -lomniDynamic4 -lRTC -lcoil 
