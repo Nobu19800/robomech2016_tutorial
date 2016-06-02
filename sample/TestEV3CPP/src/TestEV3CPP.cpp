@@ -13,6 +13,7 @@
  * $Id$
  */
 
+#include "TestEV3CPP.h"
 
 // Module specification
 // <rtc-template block="module_spec">
