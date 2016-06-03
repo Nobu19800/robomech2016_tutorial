@@ -268,6 +268,7 @@ class TestRasPiMousePy(OpenRTM_aist.DataFlowComponentBase):
 						self._d_buzzer.data = 50
 						OpenRTM_aist.setTimestamp(self._d_buzzer)
 						self._buzzerOut.write()
+						
 						return RTC.RTC_OK
 
 			#入力速度をそのまま出力する

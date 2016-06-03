@@ -262,6 +262,7 @@ class TestEV3Py(OpenRTM_aist.DataFlowComponentBase):
 						self._d_velocity_out.data.va = 0
 						OpenRTM_aist.setTimestamp(self._d_velocity_out)
 						self._velocity_outOut.write()
+						
 						return RTC.RTC_OK
 
 			#入力速度をそのまま出力する
